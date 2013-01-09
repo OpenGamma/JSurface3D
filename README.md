@@ -9,7 +9,7 @@ JSurface3d is an interactive WebGL surface built with Three.js. There are over 3
 Requirements
 -----------
 
-When we decided to release JSurface3D as a separate component I removed a number of OpenGamma specific dependencies, however it does still use **JQuery** and a number of fairly new JavaScript methods like **map** and **filter**. Additionally, if you want zoom support you need to add **jquery.mousewheel.js** plugin, you may already have this as its bundled with various other plugins (http://brandonaaron.net).
+When we decided to release JSurface3D as a separate component I removed a number of OpenGamma specific dependencies, however it does still use **JQuery** and a number of fairly new JavaScript methods like **map** and **filter**. Additionally, if you want zoom support you need to add [jquery-mousewheel](https://github.com/brandonaaron/jquery-mousewheel "jquery-mousewheel") plugin, you may already have this as its bundled with various other plugins.
 
 The 3D text requires a JavaScript font file. JSurface3D defaults to helvetiker but you can change this. You can use Typeface.js to convert fonts if needed. detector.js and stats.js are also required, they are scripts developed by the author of Three. Their not included in the actual project, yet used heavily by Three users.
 
@@ -35,6 +35,6 @@ You can either update the whole world or just the surface. You can also reload i
 
 ### Cleanup: ###
 
-    surface.die(all); // all is an optional Boolean, use it to clear up after all surfaces.
+    surface.die(true); // optional Boolean, use it to clear up after all surfaces.
 
 &copy; 2013 - present by OpenGamma Inc. and the OpenGamma group of companies
