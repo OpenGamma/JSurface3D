@@ -35,6 +35,6 @@ You can either update the whole world or just the surface. You can also reload i
 
 ### Cleanup: ###
 
-    surface.die('all'); // all is an optional Boolean, use it to clear up after all surfaces.
+    surface.die(true); // optional Boolean, use it to clear up after all surfaces.
 
 &copy; 2013 - present by OpenGamma Inc. and the OpenGamma group of companies
