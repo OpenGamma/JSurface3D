@@ -3,7 +3,8 @@ JSurface3D
 
 JSurface3d is an interactive WebGL surface built with Three.js. There are over 30 configurations that let you customize the look and feel, including vertex shading range, width, height, fontsize, colours etc and additional features include live updating, slicing, projecting smiles, rotation and zooming.
 
-[Examples](http://opengamma.github.com/JSurface3D "JSurface3D.js examples")
+[Examples](http://opengamma.github.com/JSurface3D "JSurface3D.js examples") |
+[Documentation](http://opengamma.github.com/JSurface3D/docs/symbols/JSurface3D.html "JSurface3D.js documentation")
 
 Requirements
 -----------
