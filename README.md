@@ -21,7 +21,15 @@ The actual JSurface3D code is split into two groups of files. The first is bunch
 
     var surface = new JSurface3D({
         selector: '#surface',
-        data: data
+        data: {
+            vol       : [],  // Surface data points
+            xs        : [],  // X axis data points
+            xs_labels : [],  // X axis labels (optional)
+            xs_label  : '',  // X axis label
+            zs        : [],  // Z axis data points
+            zs_labels : [],  // Z axis labels (optional)
+            zs_label  : ''   // Z axis label
+        }
     });
 
 ### Updating: ###
